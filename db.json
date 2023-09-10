@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "email": "ghg@test.com",
-      "password": "$2a$10$k5aNkuwN1T9jhO16okv3w.02SrN9zIMc1qwnv37T0nbjN1pIQaY5u",
-      "name": "sfasfns",
-      "id": 1
-    },
-    {
       "email": "test@test.com",
       "password": "$2a$10$UIweiOYMCNvjoSnv6Ndn2uaMfICGvpZG3vceocdUf7V2ABAhx.yJK",
       "name": "test",
@@ -17,30 +11,6 @@
       "password": "$2a$10$DYflnJnsToD1PKJWHIIIg.QZqE/h4YjlMWyncpd9kYeFcCbisS4Gy",
       "name": "fxgdfg",
       "id": 3
-    },
-    {
-      "email": "hp@test.com",
-      "password": "$2a$10$qNG.OJ5UM4oPblRFTLhXlu8egb4Ato1HdJAtDQo/0HEnLq7phWhRG",
-      "name": "hp",
-      "id": 4
-    },
-    {
-      "email": "hp@tefst.com",
-      "password": "$2a$10$heSWFpkAQkw6nXvCv.CWzO4OvFWW5.Uq8Jtt80bIT8QSqBSMB6jTW",
-      "name": "hpf",
-      "id": 5
-    },
-    {
-      "email": "hh50@gmail.com",
-      "password": "$2a$10$WFniY0yeD1PRxQu56DZ07.l.RLKNJqUI5jat3K8nmO4P.s5dT5N/G",
-      "name": "Ic",
-      "id": 6
-    },
-    {
-      "email": "hussam@example.com",
-      "password": "$2a$10$kgECNCKykHw6x9xNuHPgJe2qqkY2PPb6MqQxihglrcXiA5y.zvENG",
-      "name": "hussam",
-      "id": 7
     }
   ],
   "products": [
@@ -144,7 +114,7 @@
     },
     {
       "id": 8,
-      "title": "samsung Galaxy A53 5G",
+      "title": "samsung A53 5G",
       "description": "The Samsung Galaxy A53 (SM-A5360 256GB) is a good Android phone with 2.4GHz Octa-core processor that allows run games and heavy applications       An advantage of the Samsung Galaxy A53 (SM-A5360 256GB) is the possibility of using two mobile carriers, a Dual-SIM device with two SIM card slots.",
       "price": 325,
       "Stock": 30,
@@ -172,7 +142,7 @@
     },
     {
       "id": 10,
-      "title": "Rockerz 450 Pro Headphones",
+      "title": "Rockerz 450 Pro Headphone",
       "description": "boAt Rockerz 450 Pro | Wireless Headphone with 40mm Massive Drivers, Mountainous Playback Upto 70 Hours, Asap Chargee, Noise cancelling is good for the price, and optional wired listening is handy.      ",
       "price": 41,
       "Stock": 20,
@@ -200,7 +170,7 @@
     },
     {
       "id": 12,
-      "title": "Sony WH-XB910N Extra",
+      "title": "Sony WH-XB910N Extra Headphone",
       "description": "The WH-XB910N noise cancelling headphones enhance all your low-end frequencies for exceptional bass Yet these wireless headphones also maintain vocal clarity for a wonderfully rich, well-rounded listening experience. ",
       "price": 248,
       "Stock": 30,
@@ -214,7 +184,7 @@
     },
     {
       "id": 13,
-      "title": "Beats Solo3 Wireless",
+      "title": "Beats Solo3 Wireless Headphone",
       "description": "      High-performance wireless Bluetooth headphones, Features the Apple W1 chip and Class 1 wireless Bluetooth connectivity With up to 40 hours of battery life, Compatible with iOS and Android devices.",
       "price": 158,
       "Stock": 30,
@@ -228,7 +198,7 @@
     },
     {
       "id": 14,
-      "title": "W20 TWS Earphone ",
+      "title": "W20 TWS Earphone Headphone",
       "description": "Picun W20 True Wireless Earbuds 36 Hours Playtime Bluetooth 5.0+EDR HiFi Crystal Bass IPX8 Waterproof in-Ear Headphones w/HD Mic, Touch Control, Hall Switch, USB-C, Single/Twin Mode Comfy for Sports     ",
       "price": 26,
       "Stock": 30,
@@ -427,277 +397,24 @@
     {
       "orderItems": [
         {
-          "id": 3,
-          "title": "iPhone 13 mini 128G",
-          "price": 559,
-          "image": "/assets/images/product/iPhone_13_mini/IPhone13Mini-1.jpg",
-          "Stock": 20,
+          "id": 5,
+          "title": "iPhone X 64GB",
+          "price": 199,
+          "image": "/assets/images/product/iPhone-X/IphoneX-1.jpg",
+          "Stock": 15,
           "quantity": 1,
-          "products": 3
-        },
-        {
-          "id": 1,
-          "title": "iPhone 11 64GB",
-          "price": 399.99,
-          "image": "/assets/images/product/iPhone-11-128GB/IPhone11-1.jpg",
-          "Stock": 10,
-          "quantity": 1,
-          "products": 1
+          "products": 5
         }
       ],
       "shippingAddress": {
-        "country": "ff",
+        "country": "palstane ",
         "city": "gaza",
-        "address": "gdsg",
-        "postalCode": "21212"
+        "address": "gaza",
+        "postalCode": "000000"
       },
-      "totalPrice": "958.99",
-      "createdAt": "4/19/2023",
-      "id": 1,
-      "pay": {
-        "paymentMethod": "PayPal",
-        "amount_paid": "958.99",
-        "status": "COMPLETED",
-        "create_time": "2023-04-19T13:06:31Z",
-        "update_time": "2023-04-19T13:07:07Z",
-        "email_address": "test0107-1@test.com",
-        "id": "8MG85619Y88965231"
-      }
-    },
-    {
-      "orderItems": [
-        {
-          "id": 2,
-          "title": "iPhone 12 Mini 64G",
-          "price": 325,
-          "image": "/assets/images/product/iPhone_12_Mini/IPhone12Mini-1.jpg",
-          "Stock": 30,
-          "quantity": 1,
-          "products": 2
-        }
-      ],
-      "shippingAddress": {
-        "country": "palestine ",
-        "city": "gaza",
-        "address": "gdsg",
-        "postalCode": "21212"
-      },
-      "totalPrice": "325.00",
-      "createdAt": "4/19/2023",
-      "id": 2
-    },
-    {
-      "orderItems": [
-        {
-          "id": 2,
-          "title": "iPhone 12 Mini 64G",
-          "price": 325,
-          "image": "/assets/images/product/iPhone_12_Mini/IPhone12Mini-1.jpg",
-          "Stock": 30,
-          "quantity": 1,
-          "products": 2
-        },
-        {
-          "id": 1,
-          "title": "iPhone 11 64GB",
-          "price": 399.99,
-          "image": "/assets/images/product/iPhone-11-128GB/IPhone11-1.jpg",
-          "Stock": 10,
-          "quantity": 1,
-          "products": 1
-        }
-      ],
-      "shippingAddress": {
-        "country": "uSA",
-        "city": "gaza",
-        "address": "gdsg",
-        "postalCode": "21212"
-      },
-      "totalPrice": "724.99",
-      "createdAt": "4/19/2023",
-      "id": 3
-    },
-    {
-      "orderItems": [
-        {
-          "id": 2,
-          "title": "iPhone 12 Mini 64G",
-          "price": 325,
-          "image": "/assets/images/product/iPhone_12_Mini/IPhone12Mini-1.jpg",
-          "Stock": 30,
-          "quantity": 2,
-          "products": 2
-        },
-        {
-          "id": 1,
-          "title": "iPhone 11 64GB",
-          "price": 399.99,
-          "image": "/assets/images/product/iPhone-11-128GB/IPhone11-1.jpg",
-          "Stock": 10,
-          "quantity": 1,
-          "products": 1
-        }
-      ],
-      "shippingAddress": {
-        "country": "USA",
-        "city": "gaza",
-        "address": "gdsg",
-        "postalCode": "21212"
-      },
-      "totalPrice": "1049.99",
-      "createdAt": "4/19/2023",
-      "id": 4
-    },
-    {
-      "orderItems": [
-        {
-          "id": 2,
-          "title": "iPhone 12 Mini 64G",
-          "price": 325,
-          "image": "/assets/images/product/iPhone_12_Mini/IPhone12Mini-1.jpg",
-          "Stock": 30,
-          "quantity": 3,
-          "products": 2
-        },
-        {
-          "id": 1,
-          "title": "iPhone 11 64GB",
-          "price": 399.99,
-          "image": "/assets/images/product/iPhone-11-128GB/IPhone11-1.jpg",
-          "Stock": 10,
-          "quantity": 1,
-          "products": 1
-        }
-      ],
-      "shippingAddress": {
-        "country": "USA",
-        "city": "gaza",
-        "address": "gdsg",
-        "postalCode": "21212"
-      },
-      "totalPrice": "1374.99",
-      "createdAt": "4/19/2023",
-      "id": 5
-    },
-    {
-      "orderItems": [
-        {
-          "id": 4,
-          "title": "iPhone 13 Pro Max 128G",
-          "price": 997.46,
-          "image": "/assets/images/product/iPhone-13-Pro-Max/IPhone13ProMax-1.jpg",
-          "Stock": 30,
-          "rating": 5,
-          "quantity": 2,
-          "products": 4
-        }
-      ],
-      "shippingAddress": {
-        "country": "USA",
-        "city": "gaza",
-        "address": "gdsg",
-        "postalCode": "21212"
-      },
-      "totalPrice": "1994.92",
-      "createdAt": "4/29/2023",
-      "id": 6
-    },
-    {
-      "orderItems": [
-        {
-          "id": 4,
-          "title": "iPhone 13 Pro Max 128G",
-          "price": 997.46,
-          "image": "/assets/images/product/iPhone-13-Pro-Max/IPhone13ProMax-1.jpg",
-          "Stock": 30,
-          "quantity": 1,
-          "products": 4
-        }
-      ],
-      "shippingAddress": {
-        "country": "usa",
-        "city": "gaza",
-        "address": "gdsg",
-        "postalCode": "21212"
-      },
-      "totalPrice": "997.46",
-      "createdAt": "4/29/2023",
-      "id": 7
-    },
-    {
-      "orderItems": [
-        {
-          "id": 3,
-          "title": "iPhone 13 mini 128G",
-          "price": 559,
-          "image": "/assets/images/product/iPhone_13_mini/IPhone13Mini-1.jpg",
-          "Stock": 20,
-          "quantity": 1,
-          "products": 3
-        }
-      ],
-      "shippingAddress": {
-        "country": "usa",
-        "city": "gaza",
-        "address": "gdsg",
-        "postalCode": "21212"
-      },
-      "totalPrice": "559.00",
-      "createdAt": "4/29/2023",
-      "id": 8
-    },
-    {
-      "orderItems": [
-        {
-          "id": 2,
-          "title": "iPhone 12 Mini 64G",
-          "price": 325,
-          "image": "/assets/images/product/iPhone_12_Mini/IPhone12Mini-1.jpg",
-          "Stock": 30,
-          "quantity": 2,
-          "products": 2
-        }
-      ],
-      "shippingAddress": {
-        "country": "usa",
-        "city": "gaza",
-        "address": "gdsg",
-        "postalCode": "21212"
-      },
-      "totalPrice": "650.00",
-      "createdAt": "4/29/2023",
-      "id": 9,
-      "pay": {
-        "paymentMethod": "PayPal",
-        "amount_paid": "650.00",
-        "status": "COMPLETED",
-        "create_time": "2023-04-29T20:51:21Z",
-        "update_time": "2023-04-29T20:51:35Z",
-        "email_address": "test0107-1@test.com",
-        "id": "9E292408VP6334109"
-      }
-    },
-    {
-      "orderItems": [
-        {
-          "id": 3,
-          "title": "iPhone 13 mini 128G",
-          "price": 559,
-          "image": "/assets/images/product/iPhone_13_mini/IPhone13Mini-1.jpg",
-          "Stock": 20,
-          "quantity": 1,
-          "products": 3
-        }
-      ],
-      "shippingAddress": {
-        "country": "usa",
-        "city": "gaza",
-        "address": "gdsg",
-        "postalCode": "21212"
-      },
-      "totalPrice": "559.00",
-      "createdAt": "4/29/2023",
-      "id": 10
+      "totalPrice": "199.00",
+      "createdAt": "9/10/2023",
+      "id": 22
     }
   ]
 }

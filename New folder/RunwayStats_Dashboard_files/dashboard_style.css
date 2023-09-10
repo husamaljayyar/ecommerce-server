@@ -1,0 +1,433 @@
+:root {
+    --gray: #595F6D;
+    --gray-light:#FAFAFC;
+    --violet:#5349BFFF;
+    --blue:#27A8E9FF;
+    --green:#23C2D3FF;
+
+
+
+    --gray-lighter: #F3F4F6FF;
+    --blue-light: #F1F9FEFF;
+    --green-light: #F1FBFDFF;
+    --violet-light: #F4F4FBFF;
+   
+}
+@-ms-viewport {
+    width: device-width;
+}
+
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Manrope';
+    font-size: 16px;
+    color: #000;
+    background: var(--gray-light);
+}
+
+  .fontawesome-i2svg-active body {
+    display: initial;
+  }
+
+
+.full-height { display: flex; flex-direction: column; height: 100%; }
+.fill-height { flex-grow: 1; width: 100%; }
+
+*:focus{
+    outline:none;
+}
+::-moz-placeholder {
+    opacity: 1
+}
+
+/*
+* COLORS
+*/
+.gray{
+    color: var(--gray)!important;
+}
+
+.blue{
+    color: var(--blue)!important;
+}
+.green{
+    color: var(--green)!important;
+}
+.violet{
+    color: var(--violet)!important;
+}
+/*
+* BORDER COLORS
+*/
+.border-gray{
+    border-color: var(--gray-lighter)!important;
+}
+
+/*
+* BG COLORS
+*/
+.bg-blue{
+    background: var(--blue) !important;
+}
+.bg-green{
+    background: var(--green) !important;
+}
+.bg-violet{
+    background: var(--violet) !important;
+}
+.bg-blue-light{
+    background: var(--blue-light) !important;
+}
+.bg-green-light{
+    background: var(--green-light) !important;
+}
+.bg-violet-light{
+    background: var(--violet-light) !important;
+}
+.bg-gray-light{
+    background: var(--gray-lighter) !important;
+}
+/*
+* BUTTON
+*/
+.btn.btn-default{
+    background: var(--violet-light) !important;
+    color:var(--violet);
+}
+
+.btn.btn-violet{
+    background: var(--violet) !important;
+    color:#fff;
+}
+
+/*
+* NAV
+*/
+.nav .nav-link{
+    color: var(--gray);
+}
+.nav li{
+    margin-bottom:10px;
+}
+.nav a.selected,
+.nav a:hover{
+    background:var(--violet);
+}
+.nav a:hover,
+.nav a.selected{
+    color:#fff;
+}
+
+#mobile-nav-menu .nav a{
+    font-size:1.2em !important;
+}
+
+/*
+* NAV
+*/
+.label-danger {
+    background-color: #d9534f;
+}
+.label-warning {
+    background-color: #FEF8F0FF;
+    color:#F49D1AFF !important;
+}
+.label-success {
+    background-color: #EEFDF3FF;
+    color:#117B34FF !important;
+}
+.label-info {
+    background-color: #EEFDF3FF;
+    color:#53a7e3FF !important;
+}
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+  }
+
+.dropdown-toggle::after {
+    display: none;
+}  
+
+/*!
+ * SIDENAV
+ */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    overflow-x: hidden;
+    -webkit-box-shadow: -27px 0px 16px -4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: -27px 0px 16px -4px rgba(0, 0, 0, 0.2);
+    box-shadow: -27px 0px 16px -4px rgba(0, 0, 0, 0.2);
+    transition:300ms linear;
+    margin-top:115px;
+}
+
+/*!
+ * SIDENAV
+ */
+.form-control:focus{
+    box-shadow: none;
+}
+
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+ .hamburger-menu-box{
+    margin-top:15px;
+ }
+.hamburger-menu-box button {
+    border: 0;
+    outline: none;
+}
+
+.hamburger {
+    padding: 0px;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    margin: 0;
+    overflow: visible;
+    min-height: 35px;
+}
+
+.hamburger:hover {
+    opacity: 0.7;
+}
+
+.hamburger.is-active:hover {
+    opacity: 0.7;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+    background-color: var(--violet);
+}
+
+.hamburger-box {
+    width: 36px;
+    Xheight: 40px;
+    display: inline-block;
+    position: relative;
+}
+
+.hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    width: 36px;
+    height: 4px;
+    background-color: var(--violet);
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+}
+
+.hamburger-inner::before,
+.hamburger-inner::after {
+    content: "";
+    display: block;
+}
+
+.hamburger-inner::before {
+    top: -12px;
+}
+
+.hamburger-inner::after {
+    bottom: -12px;
+}
+
+
+/*
+   * Collapse
+*/
+
+.hamburger--collapse .hamburger-inner {
+    top: auto;
+    bottom: 0;
+    transition-duration: 0.13s;
+    transition-delay: 0.13s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse .hamburger-inner::after {
+    top: -24px;
+    transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+}
+
+.hamburger--collapse .hamburger-inner::before {
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse.is-active .hamburger-inner {
+    transform: translate3d(0, -10px, 0) rotate(-45deg);
+    transition-delay: 0.22s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--collapse.is-active .hamburger-inner::after {
+    top: 0;
+    opacity: 0;
+    transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+}
+
+.hamburger--collapse.is-active .hamburger-inner::before {
+    top: 0;
+    transform: rotate(-90deg);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+
+
+
+
+/*
+   * Collapse Reverse
+*/
+
+.hamburger--collapse-r .hamburger-inner {
+    top: auto;
+    bottom: 0;
+    transition-duration: 0.13s;
+    transition-delay: 0.13s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse-r .hamburger-inner::after {
+    top: -20px;
+    transition: top 0.2s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), opacity 0.1s linear;
+}
+
+.hamburger--collapse-r .hamburger-inner::before {
+    transition: top 0.12s 0.2s cubic-bezier(0.33333, 0.66667, 0.66667, 1), transform 0.13s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.hamburger--collapse-r.is-active .hamburger-inner {
+    transform: translate3d(0, -10px, 0) rotate(45deg);
+    transition-delay: 0.22s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.hamburger--collapse-r.is-active .hamburger-inner::after {
+    top: 0;
+    opacity: 0;
+    transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), opacity 0.1s 0.22s linear;
+}
+
+.hamburger--collapse-r.is-active .hamburger-inner::before {
+    top: 0;
+    transform: rotate(90deg);
+    transition: top 0.1s 0.16s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.25s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/* red signout button on hover*/
+.nav-item a[href='/dashboard/signout']:hover {
+      background-color: red;
+      color: white;
+    }
+tr.clickable {
+  cursor: pointer;
+}
+
+.leaflet-control-layers label {
+  font-size: 18px;
+  padding: 12px;
+}
+
+
+.gear-container.leaflet-bar.leaflet-control {
+  border: none !important;
+  box-shadow: none !important;
+}
+.gear-container .gear-icon {
+  font-size: 24px;
+  line-height: 24px;
+}
+.popup-collapse-btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.4em;
+  float: right;
+  margin-top: -20px;
+  background-color: transparent;
+  border-radius: 0;	
+}
+.popup-collapse-btn .fa-square-chevron-up,
+.popup-collapse-btn .fa-square-chevron-down {
+  color: blue;
+}
+.leaflet-popup-content {
+    margin: 10px;
+}
+/* hide the close icon */
+.leaflet-tooltip-close-button {
+  display: none;
+}
+
+/* style the tooltip */
+.leaflet-tooltip {
+  border-radius: 0;
+  border: none;	
+  background-color: transparent;
+  color: #333333;
+  font-weight: normal;
+  padding: 0px 0px;
+  box-shadow: none;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.9);	
+}
+
+.no-pointer.leaflet-tooltip::before {
+  display: none;
+}
+
+/* Add these styles to your CSS file */
+.targetcountlabel {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 1px 5px;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: rgba(83, 73, 191, 1);	
+  display: inline-block;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
